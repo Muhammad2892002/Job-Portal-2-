@@ -1,0 +1,170 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   
+       
+}
+html{
+    background-color: #000000;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:#FE7F2D ;
+    border-radius: 5px;
+}
+main{
+   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.logoAndname{
+    margin-left: 1%;
+  
+    font-size: 279%;
+}
+.linkContainer{
+ display:inline;
+  
+
+}
+ul{
+    list-style: none;
+   
+}
+li{
+     display: inline;
+     margin: 2%;
+}
+
+.link{
+    text-decoration: none;
+   
+    color: #000000;
+    cursor: pointer;
+}
+.linkConatiner{
+    
+   margin-top: 1%;
+    width: 25%;
+
+}
+.link:hover{
+    color: #233D4D;
+    text-decoration: underline;
+
+}
+.logoAndname:hover{
+        color: #233D4D;
+        cursor: pointer;
+
+}
+.card1{
+    text-align: left;
+  margin: 3%;
+  padding: 2%;
+    
+  
+       height: 40vh;
+    width: 90vw;
+   border-radius: 10px;
+  box-shadow: 48px 18px 32px 2px rgba(234,236,240,0.81);
+     color: #000000;
+  
+  
+    background-color:#233D4D ;
+}
+.ImgDi{
+    border-radius: 10px;
+    margin-right: 2%;
+
+    float: left;
+  
+  
+        width: 40%;
+    height: 80%;
+
+}
+.Find-A-Job-Word{
+   
+    margin-top: 2vh;
+    color: #FE7F2D ;
+}
+.ImgCardJob{
+    margin-top: 1%;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    
+
+}
+.card{
+    border-radius: 20px;
+    text-align: center;
+    background-color: #233D4D ;
+    width: 20vw;
+    padding: 2%;
+   
+}
+.MainCardContainer{
+    width: 100vw;
+display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 25vh;
+    gap: 3%;
+}
+
+footer{
+  
+   height: 50vh;
+     background-color: #FE7F2D;
+    margin-top: 15vw;
+}
+.FooterContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.footter-links>li>a{
+    color: #000000;
+    margin: 2%;
+    text-decoration: none;
+   
+  
+}
+.footter-links{
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    margin-bottom: 20vh;
+
+}
+.link-container{
+      margin: 2%;
+    display: block;
+  
+   
+}
+.footer-info{
+    margin: 2%;
+    width: 30%;
+    text-align: left;
+}
+.location-container{
+    display: block;
+    margin: 2%;
+}
+
+.footer-link a:hover{
+        color: #233D4D;
+        cursor: pointer;
+
+}
+
+
+
